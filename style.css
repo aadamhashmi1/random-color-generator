@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+canvas {
+    border: 1px solid #000000;
+}
+.controls {
+    margin-bottom: 10px;
+}
+button {
+    margin-right: 5px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1em;
+    border-radius: 1em;
+    border-color: black;
+    background-color: rgb(94, 146, 136);
+}
+.slider-container {
+    display: none;
+}
